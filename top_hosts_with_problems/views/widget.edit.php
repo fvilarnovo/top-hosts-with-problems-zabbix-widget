@@ -25,9 +25,6 @@ $form
 		: null
 	)
 	->addField(
-		new CWidgetFieldColorView($data['fields']['base_color'])
-	)
-	->addField(
 		new CWidgetFieldTextBoxView($data['fields']['problem'])
 	)
 	->addField(
@@ -50,6 +47,9 @@ $form
 	)
 	->addFieldset(
 		(new CWidgetFormFieldsetCollapsibleView(_('Advanced configuration')))
+			->addField(
+				new CWidgetFieldColorView($data['fields']['base_color'])
+			)
 			->addField(
 				new CWidgetFieldThresholdsView($data['fields']['thresholds'])
 			)
