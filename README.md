@@ -2,6 +2,8 @@
 
 A Zabbix 7.4 dashboard widget that displays the hosts with the most problems within a configurable time period.
 
+![Top hosts with problems configuration](docs/screenshot.png)
+
 ## Features
 
 - Rank hosts by the number of problems in the selected time period
