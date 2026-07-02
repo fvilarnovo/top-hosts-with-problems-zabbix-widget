@@ -1,0 +1,22 @@
+div.dashboard-widget-top_hosts_with_problems {
+	padding: 0;
+}
+
+div.dashboard-widget-top_hosts_with_problems table {
+	width: 100%;
+}
+
+div.dashboard-widget-top_hosts_with_problems th,
+div.dashboard-widget-top_hosts_with_problems td {
+	border-left: 1px solid #e5e5e5;
+}
+
+div.dashboard-widget-top_hosts_with_problems th:first-child,
+div.dashboard-widget-top_hosts_with_problems td:first-child {
+	border-left: none;
+}
+
+div.dashboard-widget-top_hosts_with_problems td:last-child {
+	text-align: right;
+	white-space: nowrap;
+}

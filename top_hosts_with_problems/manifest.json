@@ -1,0 +1,28 @@
+{
+	"manifest_version": 2.0,
+	"id": "top_hosts_with_problems",
+	"type": "widget",
+	"name": "Top hosts with problems",
+	"namespace": "TopHostsWithProblems",
+	"version": "1.0",
+	"author": "Custom",
+	"description": "Displays top N hosts that have the most problems within the configured time period, sorted by the number of problems.",
+	"widget": {
+		"js_class": "CWidgetTopHostsWithProblems",
+		"refresh_rate": 0,
+		"in": {
+			"time_period": {
+				"type": "_timeperiod"
+			}
+		}
+	},
+	"actions": {
+		"widget.top_hosts_with_problems.view": {
+			"class": "WidgetView"
+		}
+	},
+	"assets": {
+		"css": ["widget.css"],
+		"js": ["class.widget.js"]
+	}
+}
